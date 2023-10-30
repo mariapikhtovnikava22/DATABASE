@@ -1,0 +1,67 @@
+(OTM O_Pizza, M_Review)
+(OTM O_Pizza, M_Size)
+(MTM Ingredients)
+(MTM Cart)
+Pizza:
++ Name: varchar
++ price: number(2)
++ Photo: varchar
+
+(MTM Pizza)
+Ingredients:
++ name: varchar
+
+(OTM O_Pizza, M_Review)
+(OTM M_Review, O_User)
+Review:
++ Text: varchar
++ time: datatime
+
+(OTM O_Pizza, M_Size)
+Size:
++ name: varchar
++ diameter: char(1)
+
+(OTO O_User, O_Cart)
+(OTM O_Promo, M_Cart)
+(OTO Order)
+(MTM Pizza)
+Cart:
++ Name: varchar
++ Total price: number
+
+(OTM O_Promo, M_Cart)
+Promo:
++ Name: varchar
++ code: сhar(1)
+
+(OTM O_State, M_Order)
+(OTM O_Cart, M_Order)
+Order:
++ cart id: int
++ state id: int
++ total price: number(2)
+
+(OTM O_State, M_Order)
+State:
++ name: varchar
+
+
+(OTO Cart)
+(OTM O_Role, User)
+(OTM M_Review, User)
+User:
++ Username: varchar
++ Email: varchar
++ Password: varchar
++ ProfilePicture: varchar(path to photo)
++ FirstName: varchar
++ LastName: varchar
++ Address: varchar
++ phone number: char(1)
+
+(OTM O_Role, User)
+Role:
++ Name: varchar
+
+

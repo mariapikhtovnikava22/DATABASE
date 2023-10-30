@@ -1,0 +1,20 @@
+User roles:
+
+•      Сlient
+CRUD its cart, pizza rating,make orders
+
+•	Courier
+ Simple customer + CRUD the state of orders for all clients + choose free orders
+
+•	Pizzeria Owner
+Simple customer + CRUD pizzeria assortment + CRUD user roles
+
+•	Pizzer
+Simple customer + CRUD ingredients
+
+•	Admin
+CRUD everything
+
+
+User authorization.
+Logging of user actions.
