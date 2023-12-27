@@ -4,10 +4,13 @@ SELECT * FROM Pizzas
 LIMIT 2 OFFSET 3;
 
 SELECT * FROM Users
-WHERE Username LIKE 'mar%_5';
+WHERE Username LIKE 'mar%5';
+
+SELECT Username, Address,PhoneNumber FROM Users
+WHERE PhoneNumber LIKE '%5';
 
 SELECT * FROM Users
-WHERE Email LIKE '%_@bsuir.by';
+WHERE Email LIKE '%@bsuir.by';
 
 SELECT * FROM Users
 WHERE Email GLOB '*_*@mail.ru';

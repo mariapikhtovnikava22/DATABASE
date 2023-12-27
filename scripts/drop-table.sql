@@ -1,0 +1,12 @@
+drop table if EXISTS PizzaIngredients;
+drop table if EXISTS OrderItems;
+drop table if EXISTS Orders;
+drop table if EXISTS Prices;
+drop table if EXISTS Promocodes;
+drop table if EXISTS States;
+drop table if EXISTS Ingredients;
+drop table if EXISTS Reviews;
+drop table if EXISTS Pizzas;
+drop table if EXISTS Sizes;
+drop table if EXISTS Users;
+drop table if EXISTS Roles;

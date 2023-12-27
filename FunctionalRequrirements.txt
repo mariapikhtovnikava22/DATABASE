@@ -1,20 +1,15 @@
-User roles:
+User roles
 
-•      Сlient
-CRUD its cart, pizza rating,make orders
+User
+add reviews to pizza, add pizza to own cart and crate order from products inside his/her cart
 
-•	Courier
- Simple customer + CRUD the state of orders for all clients + choose free orders
+Chef
+CRUD own products list (pizza that he/she cooking)
 
-•	Pizzeria Owner
-Simple customer + CRUD pizzeria assortment + CRUD user roles
-
-•	Pizzer
-Simple customer + CRUD ingredients
-
-•	Admin
-CRUD everything
+Admin
+CRUD pizza, users, orders, ingredients and sizes, coupons, can add coupons to users
+that add discount to all buys
 
 
-User authorization.
-Logging of user actions.
+User authorization
+Logging of user actions
