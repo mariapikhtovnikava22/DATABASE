@@ -3,8 +3,6 @@ User roles
 User
 add reviews to pizza, add pizza to own cart and crate order from products inside his/her cart
 
-Chef
-CRUD own products list (pizza that he/she cooking)
 
 Admin
 CRUD pizza, users, orders, ingredients and sizes, coupons, can add coupons to users
